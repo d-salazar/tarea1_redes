@@ -1,0 +1,21 @@
+Esta aplicacion fue compilada en Eclipse para ejecutarla simplemente abra el proyecto en eclipse y ejecute.
+para abrir con eclipse:
+
+1) abra eclipse y vaya a FILE>import
+2)al abrirse la ventana de import seleccionar "general" y luego "Existing projects into Workspace"
+3) se abrirá otra ventana y en "select root directory" dar al botón "Browse" y seleccionar la carpeta raíz del projecto.
+4) finalizar, luego dirigase a la carpeta y ejecute "Servidor.java"
+
+
+
+-Se agregó un botón "cerrar" en ambas vistas para cerrar la conexción del ServerSocket y evitar que quede colgado
+el puerto, en caso de encontrarse en la segunda vista clickear cerrar sesión en la segunda vista y luego en la primera.
+
+-Las peticiones son impresas por la consola.
+
+-No se trabajó con páginas html debido a la dinamicidad de la segunda vista, lo que se realizo fue que el mismo servidor
+las creara a medida que se necesitara.
+
+-para acceder a la aplicacion se debe tipear en el navegador de preferencia http://localhost:8080/
+
+-Esta aplicacion fue probada solo en google chrome funcionando perfecto.
